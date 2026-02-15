@@ -1,0 +1,22 @@
+{
+  "name": "dicom-qrcode-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@supabase/supabase-js": "2.45.1",
+    "jszip": "3.10.1",
+    "qrcode": "1.5.4",
+    "cornerstone-core": "2.6.1",
+    "cornerstone-tools": "4.19.0",
+    "cornerstone-wado-image-loader": "3.0.2",
+    "dicom-parser": "1.8.11"
+  }
+}
